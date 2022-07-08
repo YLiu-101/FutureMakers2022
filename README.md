@@ -15,7 +15,9 @@ Three types of data (all must be mutually exclusive) :
   * Determines which one is the final model
 * Testing (10%)
   * Tests each of the models
+
 Two types of parameters:
+
 * Learnable
   * The ML algorithm learns these parameters as it goes along
 * Hyper-parameters
