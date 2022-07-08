@@ -22,3 +22,15 @@ Two types of parameters:
   * The ML algorithm learns these parameters as it goes along
 * Hyper-parameters
   * Parameters that we manually insert into the ML algorithm
+
+#### Iris Data
+
+Is a 150 x 4 2D dataset, used commonly in machine learning computing. Note that all the elements are numerical values, the default is long. 
+
+Properties:
+* Each row is a sample (test case)
+* Each column is an attribute (for example, color）
+* Feature
+ * Given input
+* Response
+ * Expected output
