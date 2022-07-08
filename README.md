@@ -31,6 +31,6 @@ Properties:
 * Each row is a sample (test case)
 * Each column is an attribute (for example, color）
 * Feature
- * Given input
+  * Given input
 * Response
- * Expected output
+  * Expected output
