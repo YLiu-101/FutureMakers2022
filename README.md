@@ -34,3 +34,13 @@ Properties:
   * Given input
 * Response
   * Expected output
+  
+### Day 3
+
+I learned about relatively basic linear ML algorithms, such as linear regression, KMeans, and perceptrons. These algorithms are relatively limited, 
+and are unable to solve problems, such as the XOR problem. That being said, however, they are still incredibly useful. For example, KMeans is pretty good for finding patterns in the data. I'm still shocked about the convenience of pre-built functions within ML libraries, making implementation of any algorithm extremely simple.
+
+I also dipped my toes into some TensorFlow algorithms. It seems pretty basic so far, but their logistical functions have much more to offer than the simple linear ones. Below is a solution to the XOR problem.
+
+![image](https://user-images.githubusercontent.com/60068580/178312523-befd9e49-964b-4e41-8169-9116e85376df.png)
+
