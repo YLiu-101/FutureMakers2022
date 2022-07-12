@@ -50,12 +50,12 @@ We started off by learning a few TF operations. While pretty basic for low-dimen
 **Interesting Functions:**
 * convert_to_tensor( tensor) #Pretty self-explanatory
 * reduce_sum(tensor, axis, keepDims, name)
- * tensor - The tensor you want to do this operation on
- * axis - The axis you are summing it along
-   * 0 - Rows
-   * 1 - Columns
-   * And so on
- * keepDims - A boolean
- * name - The name of such an operation
+  * tensor - The tensor you want to do this operation on
+  * axis - The axis you are summing it along
+    * 0 - Rows
+    * 1 - Columns
+    * And so on
+  * keepDims - A boolean
+  * name - The name of such an operation
 
 
