@@ -44,3 +44,18 @@ I also dipped my toes into some TensorFlow algorithms. It seems pretty basic so 
 
 ![image](https://user-images.githubusercontent.com/60068580/178312523-befd9e49-964b-4e41-8169-9116e85376df.png)
 
+### Day 4
+
+We started off by learning a few TF operations. While pretty basic for low-dimension tensors, they do help a lot in convenience for higher dimensions.
+**Interesting Functions:**
+* convert_to_tensor( tensor) #Pretty self-explanatory
+* reduce_sum(tensor, axis, keepDims, name)
+ * tensor - The tensor you want to do this operation on
+ * axis - The axis you are summing it along
+   * 0 - Rows
+   * 1 - Columns
+   * And so on
+ * keepDims - A boolean
+ * name - The name of such an operation
+**Interesting Operations:**
+
