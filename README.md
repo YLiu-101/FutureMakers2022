@@ -57,5 +57,5 @@ We started off by learning a few TF operations. While pretty basic for low-dimen
    * And so on
  * keepDims - A boolean
  * name - The name of such an operation
-**Interesting Operations:**
+
 
