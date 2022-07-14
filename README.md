@@ -58,4 +58,7 @@ We started off by learning a few TF operations. While pretty basic for low-dimen
   * keepDims - A boolean
   * name - The name of such an operation
 
+### Day 5
+
+What a wild day today！This is by far the hardest day. I dived into backpropagation along with the structure of neural networks. Now I'm beginning to understand the nuance of coding a good model for ML. It's not as simple as using a few pre-built functions. You really need to tune it to the data.
 
