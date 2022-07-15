@@ -62,3 +62,12 @@ We started off by learning a few TF operations. While pretty basic for low-dimen
 
 What a wild day today！This is by far the hardest day. I dived into backpropagation along with the structure of neural networks. Now I'm beginning to understand the nuance of coding a good model for ML. It's not as simple as using a few pre-built functions. You really need to tune it to the data.
 
+### Day 6
+
+Today we dived in CNN's. They are much better at image analysis and recognition than your good ol' neural network. They go through several steps:
+
+* Convolution function - extracts specific features through the use of a kernel, ends up creating a feature matrix. 
+* Pooling - Reduces the number of pixels in the image. Max pooling is more popular than average pooling. It does this to reduce computational cost and also for better feature extraction
+* Repeat - Repeat the above two steps
+* Neural network - Now we feed the resulting layers into a neural network, where it classifies the photo. We do this through a flattening input layer
+
