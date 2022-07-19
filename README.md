@@ -71,3 +71,6 @@ Today we dived in CNN's. They are much better at image analysis and recognition 
 * Repeat - Repeat the above two steps
 * Neural network - Now we feed the resulting layers into a neural network, where it classifies the photo. We do this through a flattening input layer
 
+### Day 9
+
+Today I learned some basic loss functions, such as the CCD and SCD. Not too much, but I did notice that the KDL is really bad in the model I ran in my code. I'll take a deeper look at the reason for this. I've also never heard of KDL before...
