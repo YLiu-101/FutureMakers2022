@@ -77,4 +77,13 @@ Today I learned some basic loss functions, such as the CCD and SCD. Not too much
 
 ### Day 10
 
-Today we learned more about activation functions, and now I'm beginning to understand the reason for choosing RELU. It causes NN to learn much faster, though it has a couple problems. which can be fixed through a variety of other ones, including Leaky and Elu
+Today we learned more about activation functions, and now I'm beginning to understand the reason for choosing RELU. It causes NN to learn much faster, though it has a couple problems. which can be fixed through a variety of other ones, including Leaky and Elu.
+
+### Day 12
+
+I dived deeper into CNN networks, and really got my hands dirty with these image classification layers, especially the dropout and other regularization layers. As I was exploring the cats vs dogs dataset, I couldn't help but notice that some of these images had humans holding these pets. These must heavily impact the CNN model architecture, especially if we're talking about the real world. After all, when people take pictures of their pets, they may not be at the center of it!
+
+### Day 13
+
+Overfitting and underfitting are interesting concepts. It is a common theme, since in ML intermediate values are usually better than extreme ones.
+
