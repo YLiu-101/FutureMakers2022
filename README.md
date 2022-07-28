@@ -79,6 +79,11 @@ Today I learned some basic loss functions, such as the CCD and SCD. Not too much
 
 Today we learned more about activation functions, and now I'm beginning to understand the reason for choosing RELU. It causes NN to learn much faster, though it has a couple problems. which can be fixed through a variety of other ones, including Leaky and Elu.
 
+In addition, we visualized the output layers of a CNN:
+
+![image](https://user-images.githubusercontent.com/60068580/181585308-40793e73-7fe9-4d81-b272-fcea2e0a3f2b.png)
+
+
 ### Day 12
 
 I dived deeper into CNN networks, and really got my hands dirty with these image classification layers, especially the dropout and other regularization layers. As I was exploring the cats vs dogs dataset, I couldn't help but notice that some of these images had humans holding these pets. These must heavily impact the CNN model architecture, especially if we're talking about the real world. After all, when people take pictures of their pets, they may not be at the center of it!
