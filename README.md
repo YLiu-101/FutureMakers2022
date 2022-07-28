@@ -92,3 +92,62 @@ I dived deeper into CNN networks, and really got my hands dirty with these image
 
 Overfitting and underfitting are interesting concepts. It is a common theme, since in ML intermediate values are usually better than extreme ones.
 
+### Day 16
+
+Steps in NLP
+* Data collection
+* Preprocessing - Remove noise, normalize data. 
+ * Tokenization
+ * Stop word removal - removing words that have no meaning, like "this", "the", etc.
+ * Stemming and lemmatization
+* Feature extraction - bag of words - quite inefficient, uses a large vector with mostly zeroes, TF-IDF - is better than bag of words, also takes into account the words that are not being taken into account
+ * Highly recommended Word2Vec, or glove embeddings
+* Model building
+ * Bayesian networks
+ * Maximum entropy
+* Model Evaluation
+ * Loss function? These are quite complex. 
+
+NLP Concepts
+* Syntax - rules governing the structure of sentences ina given language
+* Semantics - what words mean
+
+Issues with NLP
+
+* Nonstandard words, such as sarcasm or novel words
+* Meaning is context specific
+* Complex sentences
+* Typos in the text
+
+Challenges
+
+* Lexical ambiguity 
+* Requires large amounts of resources
+
+Places to find datasets (most require ~10^6 samples)
+* Reddit, Twitter, other social meida platforms
+* Wikipedia
+* Company financial reports
+* Books
+* Anywhere with valid sentence sources
+
+#### RNN Networds
+
+Say that we have inputs $x_0, x_1, ... x_n$. We have a node that takes in x_0 and outputs h_0. The next time it takes in h_0 and x_1, combines the two, and produces h_2. The weights are multiplied with both the hiddent states and the inputs.
+
+Issues:
+
+* Is not able to "memorize" the earlier inputs as the number of recursions increase. Lack of long-term memory. I eat pasta sauce \[ A lot of sentences \] He eats
+
+#### LSTM Networks
+
+Helps solve the long-term dependency problems of RNN. Includes a memory cell. In addition to the hidden state, it has a cell state.
+
+Has a set of gates to determine what to do with the memory at each stage.
+
+* Output - What should I output
+* Input - Opposite of forget. What new information should I take in?
+* Forget - Given previous cell state, hidden, and input, what should I forget?
+
+![image](https://user-images.githubusercontent.com/60068580/181606309-5fdff0fe-1813-4b2e-83ad-82938494ce60.png)
+Source: Wikipedia
