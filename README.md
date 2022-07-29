@@ -151,3 +151,48 @@ Has a set of gates to determine what to do with the memory at each stage.
 
 ![image](https://user-images.githubusercontent.com/60068580/181606309-5fdff0fe-1813-4b2e-83ad-82938494ce60.png)
 Source: Wikipedia
+
+### Day 17 - Computer Vision
+
+It has applications in physics - optics and lighting in images.
+
+Deep Learning vs Traditional
+
+* Higher Accuracy
+* Requires a large dataset
+* 
+
+Applications:
+
+* Image Classification - 
+* Object Segmentation - What pixels are part of this object?
+* Object Detection - What objects are there?
+* Object Classification
+ * For example self-driving cars need to track certain objects
+* Pose evaluation
+ * Determining which joints/positions the figure is doing
+
+
+Gans:
+* Automatically learns regularities --> Creates new images
+* Two parts (Actor/Critic Model):
+ * Generator: Learns to generate plausible data. Generated data serves as negative training examples for the discriminator. Wants to be as close to the actual data as possible
+ * Discriminator: Determines difference between generator and the real example. Goal is to be better at determining which is fake and real.
+* Training: 
+ * Generator inputs random noise. Initially discriminator will likely do better. 
+ * Back propagation to improve both. 
+ 
+ General Pipeline:
+ 
+ * Prepare and load the dataset
+ * Preprocess data
+  * Ensure data is stratified into the test/training. Make it balanced! Standardize the image to make to it of fixed size. Reshape size, zoom, other augmentation
+ * Select a machine learning architecture
+ * Define parameters and train the model
+ * Validate the model
+ * Evaluate the model with test data
+ 
+ To create more augmented data, you can use the following object, which goes through a bunch of permutations: train_datagen = ImageDataGenerator( rescale, rotation_range,...)
+ 
+ 
+ 
