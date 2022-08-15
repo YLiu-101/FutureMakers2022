@@ -88,9 +88,18 @@ In addition, we visualized the output layers of a CNN:
 
 I dived deeper into CNN networks, and really got my hands dirty with these image classification layers, especially the dropout and other regularization layers. As I was exploring the cats vs dogs dataset, I couldn't help but notice that some of these images had humans holding these pets. These must heavily impact the CNN model architecture, especially if we're talking about the real world. After all, when people take pictures of their pets, they may not be at the center of it!
 
-### Day 13
+### Day 13 - 15
 
 Overfitting and underfitting are interesting concepts. It is a common theme, since in ML intermediate values are usually better than extreme ones.
+
+We learned a lot through these days. Here's a quick summary:
+
+* Autoencoders compress then decompress images to create new ones
+* Affective computing becomes more accurate through more dimensions
+* Data filtering + processing + filling in NA values is important
+* Early stopping can help a model achieve the best results
+* Hyperparameter tuning is good, but if overdone, might make it "overfit" on the training
+
 
 ### Day 16
 
@@ -152,7 +161,7 @@ Has a set of gates to determine what to do with the memory at each stage.
 ![image](https://user-images.githubusercontent.com/60068580/181606309-5fdff0fe-1813-4b2e-83ad-82938494ce60.png)
 Source: Wikipedia
 
-### Day 17 - Computer Vision
+### Day 17 - Computer Vision + GANs
 
 It has applications in physics - optics and lighting in images.
 
