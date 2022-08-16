@@ -6,8 +6,8 @@
 |                        |                        |                        |           01           |           02           | 03 | 04 |
 |           05           | [06](#day-1) | [07](#day-2) | [08](#day-3) | [09](#day-4) | 10 | 11 |
 | [12](#Day 5) | [13](#day-6) | [14](#day-7) | [15](#day-8) | [16](#day-9) | 17 | 18 |
-| [19](#day-10) | [20](#day-11) | [21](#day-12) | [22](#day-13) | [23](#day-14) | 24 | 25 |
-| [26](#day-15) | [27](#day-15) | [28](#day-16) | [29](#day-17) | [30](#weeks-5--6-30072021---13082021) | [31](#weeks-5--6-30072021---13082021) |    |
+| [19] | [20](#day-10) | [21](#day-11) | [22](#day-12) | [23](#day-13) | 24 | 25 |
+| [26](#day-14) | [27](#day-15) | [28](#day-16) | [29](#Day-17) | [30](#weeks-5--6-30072021---13082021) | [31](#weeks-5--6-30072021---13082021) |    |
 
 ### August 2021
 |           Mon          |           Tue          |           Wed          |           Thu          |           Fri          |Sat |Sun |
@@ -187,7 +187,7 @@ Has a set of gates to determine what to do with the memory at each stage.
 ![image](https://user-images.githubusercontent.com/60068580/181606309-5fdff0fe-1813-4b2e-83ad-82938494ce60.png)
 Source: Wikipedia
 
-### Day 17 - Computer Vision + GANs
+### Day 17
 
 It has applications in physics - optics and lighting in images.
 
