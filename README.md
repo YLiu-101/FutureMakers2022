@@ -7,7 +7,7 @@
 |           05           | [06](#day-1) | [07](#day-2) | [08](#day-3) | [09](#day-4) | 10 | 11 |
 | [12](#Day-5) | [13](#day-6) | [14](#day-7) | [15](#day-8) | [16](#day-9) | 17 | 18 |
 | 19 | [20](#day-10) | [21](#day-11) | [22](#day-12) | [23](#day-13---15) | 24 | 25 |
-| [26](#day-13----15) | [27](#day-13---15) | [28](#day-16) | [29](#Day-17) | [30](#weeks-5--6-30072021---13082021) | [31](#weeks-5--6-30072021---13082021) |    |
+| [26](#day-13---15) | [27](#day-13---15) | [28](#day-16) | [29](#Day-17) | [30](#weeks-5--6-30072021---13082021) | [31](#weeks-5--6-30072021---13082021) |    |
 
 ### August 2021
 |           Mon          |           Tue          |           Wed          |           Thu          |           Fri          |Sat |Sun |
@@ -228,6 +228,12 @@ Gans:
  * Evaluate the model with test data
  
  To create more augmented data, you can use the following object, which goes through a bunch of permutations: train_datagen = ImageDataGenerator( rescale, rotation_range,...)
- 
+
+### Create-a-Thon
+
+In the final phase of the program, we created a wildfire prediction system model. Our model takes in 12 input features, such as the previous day's fire mask, weather, and topography. Then it outputs the next 24 hour fire spread on a 32 by 32 image, where each pixel is 1 square kilometer. Gray means no fire, red means fire. Here is an example image.
+
+![Top: Model predictions, Bottom: Real Fire Spread](https://user-images.githubusercontent.com/60068580/184789641-ba463da2-66ba-4d3c-9fbe-6acf91316b23.png)
+
  
  
