@@ -1,4 +1,10 @@
 # FutureMakers2022
+## Projects
+
+Here are some notable projects I pursued during the program:
+
+* [California Housing Prices][https://github.com/YLiu-101/California-Housing-Reg]
+* [Wildfire Prediction][https://github.com/parkerallan/FutureMakers-2022-Team-Deep-Green] (Create-a-thon)
 
 ## Reflections
 ### Day 1
