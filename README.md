@@ -234,9 +234,11 @@ Gans:
 In the final phase of the program, we created a wildfire prediction system model. Our model takes in 12 input features, such as the previous day's fire mask, weather, and topography. Then it outputs the next 24 hour fire spread on a 32 by 32 image, where each pixel is 1 square kilometer. Gray means no fire, red means fire. Here is an example image.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/60068580/184789641-ba463da2-66ba-4d3c-9fbe-6acf91316b23.png" />
-  Top: Model predictions, Bottom: Real Fire Spread
+</p>
+<p align="center">
+Top: Model predictions, Bottom: Real Fire Spread
 </p>
 
-You can find our github repo [here][https://github.com/parkerallan/FutureMakers-2022-Team-Deep-Green]
+You can find our github repo [here](https://github.com/parkerallan/FutureMakers-2022-Team-Deep-Green)
  
  
