@@ -5,7 +5,7 @@
 |:----------------------:|:----------------------:|:----------------------:|:----------------------:|:----------------------:|:--:|:--:|
 |                        |                        |                        |           01           |           02           | 03 | 04 |
 |           05           | [06](#day-1) | [07](#day-2) | [08](#day-3) | [09](#day-4) | 10 | 11 |
-| [12](#Day-5) | [13](#day-6-+-8) | [14](#day-7) | [15](#day-6-+-8) | [16](#day-9) | 17 | 18 |
+| [12](#Day-5) | [13](#Day-6-and-8) | [14](#day-7) | [15](#Day-6-and-8) | [16](#day-9) | 17 | 18 |
 | 19 | [20](#day-10) | [21](#day-11) | [22](#day-12) | [23](#day-13---15) | 24 | 25 |
 | [26](#day-13---15) | [27](#day-13---15) | [28](#day-16) | [29](#Day-17) | [30](#Create-a-thon) | [31](#Create-a-thon) |    |
 
@@ -88,7 +88,7 @@ We started off by learning a few TF operations. While pretty basic for low-dimen
 
 What a wild day today！This is by far the hardest day. I dived into backpropagation along with the structure of neural networks. Now I'm beginning to understand the nuance of coding a good model for ML. It's not as simple as using a few pre-built functions. You really need to tune it to the data.
 
-### Day 6 + 8
+### Day 6 and 8
 
 Today we dived in CNN's. They are much better at image analysis and recognition than your good ol' neural network. They go through several steps:
 
