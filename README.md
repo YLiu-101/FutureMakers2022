@@ -5,7 +5,7 @@
 |:----------------------:|:----------------------:|:----------------------:|:----------------------:|:----------------------:|:--:|:--:|
 |                        |                        |                        |           01           |           02           | 03 | 04 |
 |           05           | [06](#day-1) | [07](#day-2) | [08](#day-3) | [09](#day-4) | 10 | 11 |
-| [12](#Day-5) | [13](#day-6) | [14](#day-7) | [15](#day-8) | [16](#day-9) | 17 | 18 |
+| [12](#Day-5) | [13](#day-6-+-8) | [14](#day-7) | [15](#day-6-+-8) | [16](#day-9) | 17 | 18 |
 | 19 | [20](#day-10) | [21](#day-11) | [22](#day-12) | [23](#day-13---15) | 24 | 25 |
 | [26](#day-13---15) | [27](#day-13---15) | [28](#day-16) | [29](#Day-17) | [30](#Create-a-thon) | [31](#Create-a-thon) |    |
 
@@ -88,7 +88,7 @@ We started off by learning a few TF operations. While pretty basic for low-dimen
 
 What a wild day today！This is by far the hardest day. I dived into backpropagation along with the structure of neural networks. Now I'm beginning to understand the nuance of coding a good model for ML. It's not as simple as using a few pre-built functions. You really need to tune it to the data.
 
-### Day 6
+### Day 6 + 8
 
 Today we dived in CNN's. They are much better at image analysis and recognition than your good ol' neural network. They go through several steps:
 
@@ -96,6 +96,16 @@ Today we dived in CNN's. They are much better at image analysis and recognition 
 * Pooling - Reduces the number of pixels in the image. Max pooling is more popular than average pooling. It does this to reduce computational cost and also for better feature extraction
 * Repeat - Repeat the above two steps
 * Neural network - Now we feed the resulting layers into a neural network, where it classifies the photo. We do this through a flattening input layer
+
+We also took a look into regularization techniques, like L1, L2, and dropouts.
+
+### Day 7
+
+#### What is a real world example of a biased ML model?
+
+An example of a biased real-life machine learning model would be a search browser that implements an AI algorithm that favors clickability of content. This algorithm would favor more recent content, discriminating other older, potentially more meaningful content, since recent content tends to place higher in search pages. This is similar to some popular search engines.
+
+A better way is to have an AI algorithm that is actually able to rank the value of the content that it reads in from the website. Perhaps track the duration users spend on these pages rather than the number of clicks. Of course, we'll need to ensure that the user isn't away from the computer.
 
 ### Day 9
 
